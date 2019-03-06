@@ -1,0 +1,24 @@
+{
+  "name": "antrunner-npm",
+  "version": "1.2.0",
+  "description": "AntRunner Interface Package",
+  "main": "lib/antrunner.js",
+  "types": "lib/antrunner.d.js",
+  "scripts": {
+	"build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GimpArm/AntRunner-NPM.git"
+  },
+  "author": "Scott Downing <scott.downing@figz.de>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/GimpArm/AntRunner-NPM/issues"
+  },
+  "homepage": "https://github.com/GimpArm/AntRunner-NPM#readme",
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  },
+  "files": ["lib/**/*"]
+}
