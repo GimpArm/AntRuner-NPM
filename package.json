@@ -1,11 +1,11 @@
 {
   "name": "antrunner-npm",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "AntRunner Interface Package",
   "main": "lib/antrunner.js",
   "types": "lib/antrunner.d.js",
   "scripts": {
-	"build": "tsc"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,7 @@
   "devDependencies": {
     "typescript": "^3.3.3333"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ]
 }
