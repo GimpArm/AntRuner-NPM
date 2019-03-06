@@ -2,7 +2,6 @@ export class Ant {
   public Name: string;
   public Action: AntAction;
   public Initialize(mapWidth: number, mapHeight: number, color: ItemColor, startX: number, startY: number) {}
-
   public Tick(state: GameState) {}
 }
 
@@ -130,3 +129,5 @@ export class GameState {
     }
   }
 }
+
+export default Ant;

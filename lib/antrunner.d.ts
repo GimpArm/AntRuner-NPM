@@ -104,3 +104,4 @@ export declare class GameState {
     readonly FlagY: number;
     constructor(tickNumber: number, event: GameEvent, response?: EchoResponse, antWithFlag?: ItemColor, flagX?: number, flagY?: number);
 }
+export default Ant;
