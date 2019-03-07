@@ -1,6 +1,6 @@
 export class Ant {
-  public Name: string;
-  public Action: AntAction;
+  public Name: string = "No Name";
+  public Action: AntAction = AntAction.Wait;
   public Initialize(mapWidth: number, mapHeight: number, color: ItemColor, startX: number, startY: number) {}
   public Tick(state: GameState) {}
 }
