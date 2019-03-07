@@ -1,5 +1,5 @@
 {
-  "name": "antrunner-npm",
+  "name": "antrunner",
   "version": "1.2.2",
   "description": "AntRunner Interface Package",
   "main": "lib/antrunner.js",
